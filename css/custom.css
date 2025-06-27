@@ -1,0 +1,99 @@
+.carousel-item {
+	height: 65vh;
+	min-height: 300px;
+	background: no-repeat center scroll;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size: cover;
+}
+
+.about-item {
+	height: 65vh;
+	width: 95vh;
+	min-height: 300px;
+	margin-left: 165px;
+	background: no-repeat center scroll;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size: cover;
+}
+
+.portfolio-item {
+	margin-bottom: 30px;
+}
+
+.close{
+	margin-left: 10px;
+}
+
+/*navigation background color*/
+.bg-dark {
+    background-color: white!important;
+}
+
+
+/*call to action button hover state*/
+.btn-secondary {
+    color: #fff;
+    background-color: #7b820b;
+    border-color: #6c757d;
+}
+
+img#insta {
+	width: 64px;
+	height: 64px;
+	filter: grayscale(100%);
+	border-radius: 50%;
+}
+
+.navbar-brand {
+	font-size: 250%;
+	color: black !important;
+	font-family: timesnewroman !important;
+}
+
+.navbar{
+	background-color: white !important;
+}
+
+img#img-inicial {
+	width: 254px;
+	height: 254px;
+	margin-left: 110px;
+}
+
+p.text-inicial {
+	margin-left: 150px;
+}
+
+.nav-color{
+	color:black !important;
+}
+
+.img-ini{
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  width: 70%;
+}
+
+.img-bio{
+	width: 100%;
+	margin-top: 10px;
+}
+
+.bio{
+	margin-left: 70px;
+}
+
+
+
+.img-works{
+	width: 100%;
+}
+
+/*.img-section{
+
+}*/

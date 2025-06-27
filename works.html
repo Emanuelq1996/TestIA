@@ -1,0 +1,209 @@
+<!doctype html>
+
+
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!--CUSTOM CSS-->
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+
+      <!--CUSTOM CSS-->
+    <style type="text/css">
+
+     .work-image{
+      width: 400px; 
+      height: 270px; 
+      margin-top:20px;
+      object-fit:scale-down;  
+      max-width: 100%;
+     }
+
+     .navbar{
+        background-color: white !important;
+      }
+
+
+
+      </style>
+
+    <title>Mariana Debaz | Obras</title>
+  </head>
+  <body>
+      <!--START navigation-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!--start container-->
+        <div class="container">
+          <a class="navbar-brand" href="index.html"> Mariana Debaz </a>
+          <!--start button-->
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target = "#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label ="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!--start links-->
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            
+            <ul class="navbar-nav ml-auto">
+              <!--Home-->
+              <li class="nav-item">
+                
+                <a class="nav-link  nav-color" href="index.html"> Inicio </a>
+
+              </li>
+
+              <!--Services-->
+              <li class="nav-item">
+                
+                <a class="nav-link  nav-color" href="expo.html"> Muestras </a>
+
+              </li>
+
+              <!--works-->
+              <li class="nav-item">
+                
+                <a class="nav-link  nav-color" href="works.html"> Obras </a>
+
+              </li>
+
+                            <!--Muebles-->
+              <li class="nav-item">
+                
+                <a class="nav-link  nav-color" href="muebles.html"> Muebles de Autor </a>
+
+              </li>
+
+              <!--De bolsillo-->
+              <li class="nav-item">
+  
+                <a class="nav-link  nav-color" href="debolsillo.html"> Esculturas de bolsillo </a>
+
+              </li>
+
+              <!--About-->
+              <li class="nav-item">
+                
+                <a class="nav-link  nav-color" href="about.html"> Biografia </a>
+
+              </li>
+
+              <!--Contact-->
+              <li class="nav-item">
+                
+                <a class="nav-link  nav-color" href="contact.html"> Contacto </a>
+
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+
+      </nav>
+      <!--END navigation-->
+
+      <!--start container-->
+      <br>
+      <br>
+      <br>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+           <a href="obras1.html" > <img class="work-image" src="https://i.imgur.com/DhVAvdc.jpg"> </a>
+           <a href="obras1.html" style="text-decoration:none; color:inherit;"> <p style="text-align: center;">Obras 1</p> </a>
+          </div>
+
+          <div class="col-md-4">
+           <a href="obras2.html"> <img class="work-image" src="https://i.imgur.com/U5SdM7O.jpg"> </a>
+           <a href="obras2.html" style="text-decoration:none; color:inherit;"> <p style="text-align: center;">Obras 2</p> </a>
+          </div>
+
+          <div class="col-md-4">
+           <a href="obras3.html"> <img class="work-image" src="https://i.imgur.com/U9zTibb.jpg"> </a>
+           <a href="obras3.html" style="text-decoration:none; color:inherit;"> <p style="text-align: center;">Obras 3</p> </a>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+           <a href="obras4.html" > <img class="work-image" src="https://i.imgur.com/7LLaYLC.jpg"> </a>
+           <a href="obras4.html" style="text-decoration:none; color:inherit;"> <p style="text-align: center;">Obras 4</p> </a>
+          </div>
+
+          <div class="col-md-4">
+            <a href="obras5.html" > <img class="work-image" src="https://imgur.com/DETA9Y2.jpg"> </a>
+            <a href="obras5.html" style="text-decoration:none; color:inherit;"> <p style="text-align: center;">Obras 5</p> </a>
+           </div>
+
+          <div class="col-md-4">
+           <a href="encargos.html" > <img class="work-image" src="https://i.imgur.com/3pWwNEU.jpg"> </a>
+           <a href="encargos.html" style="text-decoration:none; color:inherit;"> <p style="text-align: center;">Encargos-Monumentos</p> </a>
+          </div>
+
+
+        </div>
+
+        <!--
+          <?php include 'db.php';
+
+if(isset($_POST['search'])){
+
+$name = htmlspecialchars($_POST['search']);
+$sql = "select * from sections";
+$rows = $db->query($sql);          
+
+
+
+}
+
+?>
+          <div class="row">
+            <?php while($row = $rows -> fetch_assoc()):?>
+            <div class="col-md-4">
+                <a href="section.php"><img style="width: 100%;" src="<?php echo $row['imagen']; ?>"> </a>
+                <p><?php echo $row['titulo']; ?> </p>
+            </div>
+          </div>
+
+        -->
+
+        
+
+
+      </div>
+
+  <!--end container-->
+
+
+
+<br>
+<br>
+      
+
+    <!--footer-->
+    <footer class="py-5 bg-dark">
+      
+      <div class="container">
+        <p class="m-0 text-center text-white"> Copyright &copy; Bootstrap 2020</p>
+      </div>
+
+    </footer>
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
