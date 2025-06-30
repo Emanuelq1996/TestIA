@@ -17,7 +17,7 @@ import { Component } from '@angular/core';
 
           <div>
             <span><h2>Email: </h2></span> 
-            <span>marianadebaz@hotmail.com</span>
+            <span>marianadebaz&#64;hotmail.com</span>
           </div>
 
           <br>
